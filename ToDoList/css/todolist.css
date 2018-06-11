@@ -1,0 +1,54 @@
+#touch_bar{
+	background-color: #4A90E2;
+	height: 76px;
+	width: 100%;
+}
+#My_Tasks{
+	float: left;
+	margin-left: 230px;
+	background-color: #4A90E2;
+	font-size: 32px;
+	color: #FFFFFF;
+	height: 50px;
+	margin-top: 26px;
+	font-family: Roboto-Medium;
+	cursor: pointer;
+}
+#In_Porgress{
+	float: left;
+	margin-left: 250px;
+	background-color: #4A90E2;
+	font-family: Roboto-Medium;
+	font-size: 32px;
+	color: #FFFFFF;
+	height: 50px;
+	margin-top: 26px;
+	cursor: pointer;
+}
+#Completed{
+	float: left;
+	margin-left: 250px;
+	background-color: #4A90E2;
+	font-family: Roboto-Medium;
+	font-size: 32px;
+	color: #FFFFFF;
+	height: 50px;
+	margin-top: 26px;
+	cursor: pointer;
+}
+#type_title{
+	float: left;
+	margin-left: 25px;
+}
+#type_picture{
+	float: left;
+	margin-left: 230px;
+}
+#pen{
+	float: right;
+	margin-right: 195px;
+}
+#start{
+	float: right;
+	margin-right: 50px;
+}

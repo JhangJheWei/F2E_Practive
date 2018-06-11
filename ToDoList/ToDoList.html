@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ToDoList</title>
+	<script type="text/javascript" src="javascript/todolist.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script type="text/javascript" src="jquery-ui-1.12.1/jquery-ui.js"></script>
+	<script type="text/javascript" src="jquery-ui-1.12.1/jquery-ui.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/todolist.css">
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$("#My_Tasks").click(function() {
+				$(this).css("color","#00408B");
+			})
+			$("#In_Porgress").click(function() {
+				$(this).css("color","#00408B");
+			})
+			$("#Completed").click(function() {
+				$(this).css("color","#00408B");
+				$(this).css("bottom-border","#00408B");
+			})
+			$("#time").click(function() {
+				$("#time").datepicker();
+			});
+		});
+	</script>
+</head>
+<body>
+	<div id="touch_bar">
+		<div id="My_Tasks">My_Tasks</div>
+		<div id="In_Porgress">In_Porgress</div>
+		<div id="Completed">Completed</div>
+	</div>
+	<div id="input_value">
+		<div id="type_picture">type_picture</div>
+		<div id="type_title">type_title</div>
+		<div id="pen">pen</div>
+		<div id="start">start</div>
+	</div>
+	<div id="contener">
+		<p>Deadline</p>
+		<div id="time">
+			123
+		</div>
+		<p>File</p>
+		<p>Comment</p>
+		<input type="text" id="Comment_text">
+	</div>
+</body>
+</html>
